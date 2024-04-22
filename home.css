@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #fff; 
+}
+
+.header {
+    background-image: url(logo.png);
+    background-position: left;
+    background-size: contain;
+    top: 3%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+    align-content: center;
+    padding-right: 13%;
+    padding-left: 10%;
+}
+
+
+.header button {
+    background-color: #E83F33;
+    border: #E83F33;
+    color: #fff;
+    text-decoration: underline;
+    padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+    border-radius: 2.8vh 2.8vh 2.8vh 2.8vh;
+    font-size: 17px;
+}
+
+.first {
+    padding-top: 30vh;
+    background-image: url(s1bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 14%;
+}
+.first button {
+    text-decoration: underline;
+    background-color: black;
+    color: #fff;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 2vh 2vh 2vh 2vh;
+}
+
+.about {
+    padding-top: 80vh;
+    background-image: url(s2bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 14%;
+}
+
+.about p{
+    padding-left: 60%;
+    padding-bottom: 5%;
+}
+.about button {
+    background-color: black;
+    border: black;
+    color: #fff;
+    text-decoration: underline;
+    padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+    border-radius: 2.8vh 2.8vh 2.8vh 2.8vh;
+    font-size: 17px;
+}
+
+.gummynomics {
+    padding-top: 97vh;
+    background-image: url(s3bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 14%;
+}
+
+.chill {
+    padding-top: 47vh;
+    background-image: url(s4bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 14%;
+    align-items: center;
+    padding-left: 46%;
+    padding-bottom: 12%;
+}
+
+.chill button {
+    background-color: #E83F33;
+    border: #E83F33;
+    color: #fff;
+    text-decoration: underline;
+    padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+    border-radius: 2.8vh 2.8vh 2.8vh 2.8vh;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #E83F33;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 50px;
+
+}
+
+
